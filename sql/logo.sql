@@ -1,0 +1,1 @@
+SELECT * FROM `sys_config` WHERE `sys_config`.`is_frontend` = '1' AND `sys_config`.`deleted_at` IS NULL;
