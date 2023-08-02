@@ -24,7 +24,7 @@ var rootCmd = &cobra.Command{
 	Args: func(cmd *cobra.Command, args []string) error {
 		if len(args) < 1 {
 			tip()
-			return errors.New(pkg.Red("requires at least one arg"))
+			return errors.New(pkg.Red("requires at least one arg"))
 		}
 		return nil
 	},
